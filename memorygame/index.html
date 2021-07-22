@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section class="memory-game">
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="img/superhero.svg" alt="Superhero" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="img/superhero.svg" alt="Superhero" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="img/fly.svg" alt="fly" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="img/fly.svg" alt="fly" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="img/autumn.svg" alt="autumn" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="img/autumn.svg" alt="autumn" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="img/data.svg" alt="Ember" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="img/data.svg" alt="data" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="img/land.svg" alt="land" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="img/land.svg" alt="land" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="react">
+      <img class="front-face" src="img/code.svg" alt="code" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="react">
+      <img class="front-face" src="img/code.svg" alt="code" />
+      <img class="back-face" src="img/badge.svg" alt="cover" />
+    </div>
+  </section>
+
+  <div>
+    <h3>Score: <span id="text"><span id="score"></span></span><br><br>
+      <p class="text"><span id="text">Atom: </span><br><i>Don't press unless all the <br>remaining cards are matched.<br> Initiates score generation process.</i></p><br>
+      <p class="text"><span id="text">Cognizant: </span><br><i>Press <b>after Atom Card.</b></i></p>
+    </h3>
+  </div>
+
+  <section class="memory-game">
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="img/premierleague.svg" alt="premierleague" />
+      <img class="back-face" src="img/badge1.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="img/premierleague.svg" alt="premierleague" />
+      <img class="back-face" src="img/badge1.svg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="img/qatarairways.svg" alt="qatarairways" />
+      <img class="back-face" src="img/badge1.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="img/qatarairways.svg" alt="qatarairways" />
+      <img class="back-face" src="img/badge1.svg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="img/android.svg" alt="android" />
+      <img class="back-face" src="img/badge1.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="img/android.svg" alt="android" />
+      <img class="back-face" src="img/badge1.svg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="img/swift.svg" alt="swift" />
+      <img class="back-face" src="img/badge1.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="img/swift.svg" alt="swift" />
+      <img class="back-face" src="img/badge1.svg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="img/cplusplus.svg" alt="c++" />
+      <img class="back-face" src="img/badge1.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="img/cplusplus.svg" alt="c++" />
+      <img class="back-face" src="img/badge1.svg" alt="cover" />
+    </div>
+
+    <div class="memory-card" data-framework="react">
+      <img class="front-face" src="img/task_done.svg" alt="Complete" />
+      <img class="back-face" src="img/cognizant.svg" alt="cover" />
+    </div>
+    <div class="memory-card" data-framework="react">
+      <img class="front-face" src="img/loading.svg" alt="loading" />
+      <img class="back-face" src="img/atom.svg" alt="cover" />
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
